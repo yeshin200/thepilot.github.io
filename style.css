@@ -26,8 +26,16 @@ body {
 
 /* Image styling */
 img {
-  display: block;
-  margin: 20px auto;
   height: 500px;
   width: auto;
+  display: block;
+  margin: 24px auto;
+}
+
+/* Mobile override */
+@media (max-width: 768px) {
+  img {
+    height: auto;
+    max-width: 100%;
+  }
 }
