@@ -1,7 +1,33 @@
 body {
   background-color: #ffffff;
-  color: black;
-  font-family: arial;
-  <body align="left" bgcolor="#ffffff">
+  font-family: serif;
+  font-size: 15px;
+  color: #444444;
+  text-align: left;
+}
 
+/* The Pilot link */
+.pilot {
+  color: #444444;
+  text-decoration: none;
+  font-style: normal;
+  transition: font-style 0.2s ease;
+}
+
+.pilot:hover {
+  font-style: italic;
+  cursor: pointer;
+}
+
+/* Centered text */
+.center {
+  text-align: center;
+}
+
+/* Image styling */
+img {
+  display: block;
+  margin: 20px auto;
+  height: 500px;
+  width: auto;
 }
