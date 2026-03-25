@@ -33,19 +33,6 @@ img {
   margin: 24px auto;
 }
 
-.next-title {
-  font-size: 15px;
-  margin-bottom: 0.5rem;
-}
-
-.poster {
-  max-width: 600px;
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto; /* centers the image itself */
-}
-
 /* Mobile override */
 @media (max-width: 768px) {
   img {
@@ -54,4 +41,20 @@ img {
   }
 }
 
+#next {
+  margin-bottom: 2rem;
+  text-align: center; /* ensures everything inside is centered */
+}
 
+.next-title {
+  font-size: 15px;
+  margin-bottom: 0.5rem;
+}
+
+.poster {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* centers the image itself */
+}
