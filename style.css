@@ -43,7 +43,7 @@ img {
 
 #next {
   margin-bottom: 2rem;
-  text-align: center; /* ensures everything inside is centered */
+  text-align: center;
 }
 
 .next-title {
@@ -54,7 +54,7 @@ img {
 .poster {
   max-width: 600px;
   width: 100%;
-  height: auto;
+  height: auto !important;
   display: block;
-  margin: 0 auto; /* centers the image itself */
+  margin: 0 auto;
 }
