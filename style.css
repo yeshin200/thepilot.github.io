@@ -38,21 +38,6 @@ img {
   }
 }
 
-.video-container {
-  position: relative;
-  width: 560px;
-  max-width: 100%;
-  margin: 0 auto;
-  height: 315px; /* fixed desktop height */
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 
 @media (max-width: 768px) {
   .video-container {
