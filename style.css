@@ -39,13 +39,5 @@ img {
 }
 
 
-@media (max-width: 768px) {
-  .video-container {
-    height: auto;        /* let mobile scale naturally */
-    padding-bottom: 56.25%; /* maintain 16:9 on mobile */
-  }
-}
-
-
 
 
