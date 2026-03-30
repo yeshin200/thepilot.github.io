@@ -41,24 +41,6 @@ img {
   }
 }
 
-#next {
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-.next-title {
-  font-size: 15px;
-  margin-bottom: 0.5rem;
-}
-
-.poster {
-  max-width: 600px;
-  width: 100%;
-  height: auto !important;
-  display: block;
-  margin: 0 auto;
-}
-
 .video-container {
   position: relative;
   width: 100%;
