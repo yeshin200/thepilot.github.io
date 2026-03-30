@@ -40,10 +40,10 @@ img {
 
 .video-container {
   position: relative;
-  width: 100%;
-  max-width: 800px;
+  width: 560px;
+  max-width: 100%;
   margin: 0 auto;
-  height: 400px; /* fixed desktop height */
+  height: 315px; /* fixed desktop height */
 }
 
 .video-container iframe {
