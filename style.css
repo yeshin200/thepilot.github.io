@@ -20,12 +20,10 @@ body {
   cursor: pointer;
 }
 
-/* Centered text */
 .center {
   text-align: center;
 }
 
-/* Image styling */
 img {
   height: 500px;
   width: auto;
@@ -33,12 +31,19 @@ img {
   margin: 24px auto;
 }
 
+@media (max-width: 768px) {
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+}
+
 .video-container {
   position: relative;
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  padding-bottom: 40%;
+  height: 400px; /* fixed desktop height */
 }
 
 .video-container iframe {
@@ -49,12 +54,13 @@ img {
   height: 100%;
 }
 
-/* Mobile override */
 @media (max-width: 768px) {
-  img {
-    height: auto;
-    max-width: 100%;
+  .video-container {
+    height: auto;        /* let mobile scale naturally */
+    padding-bottom: 56.25%; /* maintain 16:9 on mobile */
   }
 }
+
+
 
 
