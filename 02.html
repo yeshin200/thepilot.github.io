@@ -23,15 +23,38 @@
 </a><br>
 </p>
 
-<div class="center">
-<iframe 
-  src="https://www.youtube.com/embed/videoseries?list=PL5gcsrV3S3KRRxVhHwsme-wSbmSMEXOpc"
-  width="560" 
-  height="315" 
-  frameborder="0" 
-  allowfullscreen>
-</iframe>
+<!-- Desktop version -->
+<div class="desktop">
+  <iframe 
+    src="https://www.youtube.com/embed/videoseries?list=PL5gcsrV3S3KRRxVhHwsme-wSbmSMEXOpc"
+    width="560" 
+    height="315" 
+    frameborder="0" 
+    allowfullscreen>
+  </iframe>
 </div>
+
+<!-- Mobile version -->
+<div class="mobile">
+  <iframe 
+    src="https://www.youtube.com/embed/videoseries?list=PL5gcsrV3S3KRRxVhHwsme-wSbmSMEXOpc"
+    width="100%" 
+    height="auto" 
+    frameborder="0" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<style>
+/* Hide mobile by default */
+.mobile { display: none; }
+
+/* Show mobile, hide desktop on small screens */
+@media (max-width: 768px) {
+  .desktop { display: none; }
+  .mobile { display: block; }
+}
+</style>
 <br>
 <br>
 <img src="0201.jpg" alt="view">
